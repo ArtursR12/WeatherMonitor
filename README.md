@@ -26,3 +26,4 @@ It supports:
 - SQLite
 - xUnit, Moq
 - OpenWeather API
+- Chart.js
