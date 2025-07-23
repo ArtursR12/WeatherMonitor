@@ -1,0 +1,58 @@
+[
+  {
+    "ContainingType": "WeatherMonitor.Api.Controllers.WeatherController",
+    "Method": "Get",
+    "RelativePath": "api/Weather",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[WeatherMonitor.Api.Models.WeatherData, WeatherMonitor.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WeatherMonitor.Api.Controllers.WeatherController",
+    "Method": "GetCities",
+    "RelativePath": "api/Weather/cities",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WeatherMonitor.Api.Controllers.WeatherController",
+    "Method": "GetHistory",
+    "RelativePath": "api/Weather/history",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WeatherMonitor.Api.Controllers.WeatherController",
+    "Method": "GetMinMax",
+    "RelativePath": "api/Weather/minmax",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
